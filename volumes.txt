@@ -1,0 +1,3 @@
+date:24-01-10,width:205,ratio:60,diameter:15,volume39.92449041517438
+date:24-01-10,width:205,ratio:55,diameter:16,volume37.7
+date:24-01-10,width:205,ratio:55,diameter:16,volume37.698

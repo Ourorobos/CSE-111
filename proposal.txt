@@ -1,0 +1,61 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+	request.py
+
+2. What real-world problem will your program address or help to solve?
+	this program will build off of the week 5 prove 'Grocery Store'
+	it will take user input and build a request.csv file (with
+	product ids and quantities) that can be used in the Week 5
+	prove 'Grocery Store'
+
+3. What will you learn from developing this program?
+	how to write to csv files with the csv module
+	handle duplicate user input i.e. ordering yougert twice
+	saving data in a way the it can be used in later programs
+
+4. What Python modules will your program use?
+	csv module
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. List the names of functions you will need?
+
+	main()
+
+	check_request() #looks for duplicates or invalid orders like
+	no quantiy items
+
+	get_id() #takes the name and returns the product ids
+	
+	write_file() #Write data to csv file
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+6. List the names of the test functions you will write.
+
+	test_check_request()
+
+	test_get_id()
+
+	test_write_file()
+
